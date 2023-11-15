@@ -10,6 +10,7 @@ python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
 psycopg2 = "^2.9.9"
+pipenv = "^2023.11.14"
 
 [build-system]
 requires = ["poetry-core"]
