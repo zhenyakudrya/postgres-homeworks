@@ -7,7 +7,7 @@ conn = psycopg2.connect(
     host="localhost",
     database="north",
     user="postgres",
-    password=os.getenv('PSWRD_DB_NORTH')
+    password=os.getenv('PSWRD')
 )
 try:
     with conn.cursor() as cur:
